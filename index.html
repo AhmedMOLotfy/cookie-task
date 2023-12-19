@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register cookie</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="task4">
+        <div class="program">
+            <h4>Validation Game</h4>
+                <div class="validator-game">
+                    <div class="name-input">
+                        <label>Name: </label>
+                        <input id="name" type="text" name="userName" class="nameInput" required>
+                    </div>
+                    <span class="msg name"></span>
+                    <div class="name-input">
+                        <label>Age: </label>
+                        <input type="text" name="age" class="ageInput" required id="age">
+                    </div>
+                    <span class="msg email"></span>
+                    <span class="msg pass"></span>
+                    <div class="gender-input">
+                        <span>Gender:</span>
+                        <div>
+                            <label>
+                                <input type="radio" name="gender" value="male" class="gender" required>
+                                <img src="1.jpg">
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female" class="gender">
+                                <img src="2.jpg">
+                            </label>
+                        </div>
+                    </div>
+                    <span class="msg gender"></span>
+                    <span class="msg sports"></span>
+                    <div class="country-input">
+                        <label for="color">Color: </label>
+                        <select id="color">
+                            <option value="blue">blue</option>
+                            <option value="red">red</option>
+                            <option value="green">green</option>
+                        </select>
+                    </div>
+
+                    <div class="btns">
+                        <input type="submit" id="submit" value="Submit" onclick="submit()">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
